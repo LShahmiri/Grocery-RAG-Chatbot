@@ -4,7 +4,7 @@
 ##  Live Demo
 
 **▶️ Try the app here:**  
-👉 https://grocery-rag-chatbot-with-memory.streamlit.app/
+https://grocery-rag-chatbot-with-memory.streamlit.app/
 
 A Retrieval-Augmented Generation (RAG) AI assistant built for **ABC Grocery** to answer customer and staff questions using verified internal documentation.  
 This Streamlit application integrates **OpenAI GPT-5**, **LangChain**, and **ChromaDB** to provide fast, accurate, and context-aware responses.
