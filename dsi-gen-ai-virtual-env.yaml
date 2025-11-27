@@ -1,0 +1,16 @@
+name: dsi-gen-ai
+channels:
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.11
+  - pip
+  - spyder
+  - pip:
+      - python-dotenv==1.2.1
+      - SQLAlchemy==2.0.44
+      - psycopg2==2.9.11
+      - langchain==1.0.2
+      - langchain-community==0.4.1
+      - langchain-openai==1.0.1
+      - langchain-chroma==1.0.0
