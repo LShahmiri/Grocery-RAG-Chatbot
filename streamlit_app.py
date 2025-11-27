@@ -198,34 +198,15 @@ st.markdown(
 
 # --- Sidebar ---
 with st.sidebar:
-    st.markdown("## 🛒 ABC Grocery RAG Chatbot")
+    st.markdown("## 🛒 ABC Grocery AI")
     st.markdown(
-        """
-        This project is a **Retrieval-Augmented Generation (RAG)** chatbot built for  
-        **ABC Grocery’s internal help desk system**.  
-        
-        ### 🔍 What this AI can do
-        - Answer questions using the verified **internal help-desk knowledge base**  
-        - Use **conversational memory** to personalize replies  
-        - Retrieve relevant information from **ChromaDB vector store**  
-        - Generate responses using **OpenAI GPT-5** via LangChain  
-
-        ### 🧠 Tech Stack
-        - **Streamlit** (UI)  
-        - **LangChain** (RAG + memory)  
-        - **ChromaDB** (vector database)  
-        - **OpenAI embeddings + GPT-5**  
-        - **Python**  
-
-        ### 📝 Notes
-        The chatbot answers strictly from the provided document to ensure  
-        **accuracy**, **consistency**, and **hallucination-free** responses.
-        """
+        "- Answers based on the **internal ABC help guide** only.\n"
+        "- Uses **RAG + conversational memory**.\n"
+        "- Does not answer questions outside the provided document."
     )
-
     if st.button("🧹 Clear conversation"):
         st.session_state.clear()
-        st.rerun()
+        st.rerun()   # <--- fixed: use st.rerun instead of experimental_rerun
 
 
 # --- Header ---
