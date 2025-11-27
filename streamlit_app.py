@@ -202,8 +202,7 @@ with st.sidebar:
 
     st.markdown(
         """
-        This assistant helps customers and staff by providing quick,  
-        accurate answers**.
+        This assistant helps customers and staff by providing quick,accurate answers.
 
         ### What this assistant can help with
         - Store hours and location information  
@@ -212,11 +211,6 @@ with st.sidebar:
         - Payment options  
         - In-store services  
         - Product availability (as described in the help guide)
-
-        ### Important
-        This assistant ONLY answers using verified information from  
-        ABC Grocery’s internal help documentation.  
-        It does **not** guess or provide external information.
         """
     )
 
