@@ -46,6 +46,7 @@ This Streamlit application integrates **OpenAI GPT-5**, **LangChain**, and **Chr
 
 ##  Project Structure
 
+<img width="947" height="418" alt="ABC" src="https://github.com/user-attachments/assets/9a6072d1-566c-4638-b059-f49413d82e5d" />
 
 ---
 
