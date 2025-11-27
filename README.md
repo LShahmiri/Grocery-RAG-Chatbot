@@ -73,12 +73,16 @@ To ensure reliability and avoid hallucination, the assistant:
 
 ##  Running Locally
 
-### 1. Clone the repo
+
 
 ```bash
+### 1. Clone the repo
 git clone https://github.com/LShahmiri/Grocery-RAG-Chatbot.git
 cd Grocery-RAG-Chatbot
+### 2.Install dependencies
 pip install -r requirements.txt
+### 3. Add your OpenAI API key
 OPENAI_API_KEY="your-key-here"
+### 4. Run the app
 streamlit run streamlit_app.py
 
