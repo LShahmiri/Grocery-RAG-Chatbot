@@ -1,4 +1,5 @@
 #  ABC Grocery RAG Chatbot
+<img width="947" height="418" alt="ABC" src="https://github.com/user-attachments/assets/9a6072d1-566c-4638-b059-f49413d82e5d" />
 
 A Retrieval-Augmented Generation (RAG) AI assistant built for **ABC Grocery** to answer customer and staff questions using verified internal documentation.  
 This Streamlit application integrates **OpenAI GPT-5**, **LangChain**, and **ChromaDB** to provide fast, accurate, and context-aware responses.
@@ -45,8 +46,11 @@ This Streamlit application integrates **OpenAI GPT-5**, **LangChain**, and **Chr
 ---
 
 ##  Project Structure
-
-<img width="947" height="418" alt="ABC" src="https://github.com/user-attachments/assets/9a6072d1-566c-4638-b059-f49413d82e5d" />
+├── abc_vector_db_chroma/ # ChromaDB vector store
+├── abc-grocery-help-desk-data.md
+├── streamlit_app.py # Main RAG + chatbot app
+├── requirements.txt # Dependencies
+├── .gitignore
 
 ---
 
