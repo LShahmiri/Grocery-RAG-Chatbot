@@ -220,7 +220,10 @@ with st.sidebar:
 
 
 # --- Header ---
-st.markdown('<div class="abc-title"> Welcome to ABC Grocery AI Assistant! Ask anything about ABC Grocery.</div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="abc-title" style="text-align:center;">Welcome to ABC Grocery AI Assistant! Ask anything about ABC Grocery.</div>',
+    unsafe_allow_html=True
+)
 
 
 # --- Session state for chat ---
