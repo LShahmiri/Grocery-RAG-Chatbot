@@ -45,15 +45,6 @@ This Streamlit application integrates **OpenAI GPT-5**, **LangChain**, and **Chr
 
 ---
 
-##  Project Structure
-├── abc_vector_db_chroma/ # ChromaDB vector store
-├── abc-grocery-help-desk-data.md
-├── streamlit_app.py # Main RAG + chatbot app
-├── requirements.txt # Dependencies
-├── .gitignore
-
----
-
 ##  How It Works
 
 1. The help-desk document is loaded and split into semantic chunks.  
